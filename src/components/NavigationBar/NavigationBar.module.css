@@ -1,51 +1,81 @@
-.wrapper {
-  padding: 8px 16px;
-  margin: 32px auto;
-  border: 1px black solid;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-.navbar{
+
+:root{
+  --mainColor: #758e9d;
+  --mainColorLight: #85b8d7;
+  --secondaryColor: #ebeb2d;
+  --textColor: #eee;
+}
+
+header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin: auto 64px;
+  height: 80px;
+  padding: 0 2rem;
+
+  background: linear-gradient(180deg, rgba(46,82,84, 80%) 6%,  rgba(130,0,255,0) 107%);
+  color: var(--textColor);
 }
 
-.navbar .tabs{
-  margin: auto 64px;
-}
-.navbar .name{
-  text-align: justify;
-  justify-content: flex-start;
-  margin: auto 64px;
-  color: red;
+nav a {
+  margin: 0 2rem;
+  color: var(--textColor);
+  text-decoration: none;
 }
 
-.navbar .name h2{
-  letter-spacing: -.025em;
-}
-span{
-  margin-left: 16px;
+nav a:hover {
+  color: var(--secondaryColor);
 }
 
+header .navBtn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  /* visibility: hidden;
+  opacity: 0; */
+  font-size: 1.2rem;
+  display: none;
+}
 
-@media only screen and (max-width: 1023px){
-  .wrapper {
-    padding: 0px 0px;
-    margin: 0px auto;
-    border: 1px red solid;
+@media only screen and (max-width: 1024px){
+  header .navBtn{
+    /* visibility: visible;
+    opacity: 1; */
+    display: block;
   }
 
-  .navbar{
-    margin: auto 16px;
-  }  
+  header nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 0s;
+    transform: translateY(-100vh);
+  }
 
-  .navbar .name{
-    color: blue;
-    margin: auto 0px;
+
+  nav .navCloseBtn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
   }
 }
-@media only screen and (min-width: 1024px){
-
-  
-}
-
