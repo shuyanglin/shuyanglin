@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import {FaTimes, FaBars} from 'react-icons/fa'
 import styles from './NavigationBar.module.css';
 import "../../Styles/main.css"
@@ -19,10 +20,10 @@ function Header() {
         <p>re:architect</p>
       </div>
       <nav className={isResponsive?navStyle:undefined}>
-        <a href="/#">About</a>
-        <a href="/#">Projects</a>
-        <a href="/#">Weekly Notes</a>
-        <a href="/#">Calendar</a>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/notes">Weekly Notes</Link>
+        <Link to="/calendar">Calendar</Link>
         <button className={`${styles.navBtn} ${styles.navCloseBtn}`} onClick={showNavbar}>
           <FaTimes/>
         </button>
