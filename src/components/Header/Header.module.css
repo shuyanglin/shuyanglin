@@ -1,0 +1,51 @@
+.wrapper {
+  padding: 8px 16px;
+  margin: 32px auto;
+  border: 1px black solid;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 64px;
+}
+
+.navbar .tabs{
+  margin: auto 64px;
+}
+.navbar .name{
+  text-align: justify;
+  justify-content: flex-start;
+  margin: auto 64px;
+  color: red;
+}
+
+.navbar .name h2{
+  letter-spacing: -.025em;
+}
+span{
+  margin-left: 16px;
+}
+
+
+@media only screen and (max-width: 1023px){
+  .wrapper {
+    padding: 0px 0px;
+    margin: 0px auto;
+    border: 1px red solid;
+  }
+
+  .navbar{
+    margin: auto 16px;
+  }  
+
+  .navbar .name{
+    color: blue;
+    margin: auto 0px;
+  }
+}
+@media only screen and (min-width: 1024px){
+
+  
+}
+
