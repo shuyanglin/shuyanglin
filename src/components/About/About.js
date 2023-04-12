@@ -5,10 +5,11 @@ import styles from './About.module.css';
 function About() {
   return (
   <>
+    <h1>About</h1>  
     <Container>
     <Row>
-    <h1>About</h1>   
-
+     
+      <Col sm={12}>
       <section>
       
       <img alt="cover image for about page" src={hero}></img>
@@ -17,11 +18,12 @@ function About() {
       </div>
         
       </section>
+      </Col> 
     </Row>
     <Row>
-      <Col sm={2}>
+      <Col lg={2} sm={1}>
       </Col>  
-      <Col sm={8}>
+      <Col lg={8} sm={10}>
       <p>
       Shu Yang Lin is a re:architect based in London. She is currently working on a joint project between the <a href="https://moda.gov.tw/">Ministry of Digital Affairs</a> and <a href="https://darkmatterlabs.org/">Dark Matter Laboratories</a>. 
       Working in the field between HCI and interaction design she design interactions to explore the creative potentials machine-supported consensus finding.

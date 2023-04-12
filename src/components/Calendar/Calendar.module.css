@@ -1,0 +1,21 @@
+.container{
+    padding: 2rem;
+}
+
+.header{
+    background-color:#ddd;
+}
+
+.row{
+    padding: 1rem;
+    min-height: 5rem;
+}    
+
+@media only screen and (max-width: 576px){
+    .header{
+        background-color: rgb(255, 238, 0);
+        transform: translateY(-100vh);
+    }
+    
+
+}

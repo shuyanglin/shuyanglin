@@ -1,12 +1,13 @@
 section {
-    padding: 4rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
 }
 
 .description {
     position: absolute;
     transform: translate(-5vw, -30vh);
     background-color: #eee;
-    padding: 2.5rem;
+    padding: 2rem 2.5rem;
     max-width: 600px;
 }
 
