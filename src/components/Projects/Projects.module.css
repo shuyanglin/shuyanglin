@@ -1,0 +1,54 @@
+.container{
+    padding: 2rem;
+}
+
+.card{
+    margin-top: 2rem;
+    
+}
+
+.card h2{
+    color: #222;
+    
+}
+
+.card img{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border: 1px solid #456;
+}
+
+.card:hover{
+    opacity: 0.7;
+}
+
+.card p{
+    font-size: 1.25rem;
+    color: #999;
+    margin-bottom: 1rem;
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .card{
+        margin-top: 1rem;;
+    }
+    
+    .card h2{
+        color: #222;
+        font-size: 1.25rem;
+    }
+
+    .card p{
+        font-size: 1rem;
+        
+    }
+
+    .card img{
+        width: 100%;
+        min-height: 20px;
+        margin-bottom: 20px;
+    }
+}
