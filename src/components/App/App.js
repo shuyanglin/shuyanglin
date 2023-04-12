@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import {Route, Routes, Navigate } from 'react-router-dom';
 
 import NavigationBar from '../NavigationBar';
 import About from '../About/About'
@@ -21,6 +21,7 @@ function App() {
           <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/notes" element={<Notes/>}></Route>
           <Route path="/calendar" element={<Calendar/>}></Route>
+          <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </div>
       <Footer />

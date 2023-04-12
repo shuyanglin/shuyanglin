@@ -16,7 +16,7 @@ function Header() {
   return (
     <header>
       <div>
-        <h3>Shu Yang Lin</h3>
+        <h2>Shu Yang Lin</h2>
         <p>re:architect</p>
       </div>
       <nav className={isResponsive?navStyle:undefined}>

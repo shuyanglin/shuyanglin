@@ -1,0 +1,20 @@
+section {
+    padding: 4rem;
+}
+
+.description {
+    position: absolute;
+    transform: translate(-5vw, -30vh);
+    background-color: #eee;
+    padding: 2.5rem;
+    max-width: 600px;
+}
+
+@media only screen and (max-width: 1024px){
+    .description {
+        position: relative;
+        transform: translate(0);
+        max-width: none;
+    }
+
+}

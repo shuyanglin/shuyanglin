@@ -3,7 +3,7 @@ import React from "react";
 function Notes() {
   return (
     <>
-      <p>notes..</p>
+      <h1>Notes</h1>
     </>
   );
 }

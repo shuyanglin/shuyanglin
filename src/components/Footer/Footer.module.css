@@ -1,13 +1,14 @@
 .wrapper {
-  padding: 32px 16px 64px;
-  max-width: 500px;
-  margin: 32px auto;
+  padding: 2rem 1rem 4rem;
+  /* max-width: 500px; */
+  /* margin: 32px auto; */
   text-align: center;
+  background-color: #ddd;
+  height: 50px;
 }
 
 .wrapper p {
   font-size: 0.875rem;
-  color: hsl(0, 0%, 0%);
 }
 
 .wrapper p a {
