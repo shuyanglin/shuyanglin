@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shuyanglin/static/css/main.8cfc2d74.css",
+    "main.js": "/shuyanglin/static/js/main.c87f7acd.js",
+    "static/js/743.367a12cd.chunk.js": "/shuyanglin/static/js/743.367a12cd.chunk.js",
+    "static/js/833.6d287fd9.chunk.js": "/shuyanglin/static/js/833.6d287fd9.chunk.js",
+    "static/js/978.f4a45e35.chunk.js": "/shuyanglin/static/js/978.f4a45e35.chunk.js",
+    "static/media/democracy-in-taiwan.jpg": "/shuyanglin/static/media/democracy-in-taiwan.bcbb07d3b2dc5db5f489.jpg",
+    "static/media/po-network-cover.png": "/shuyanglin/static/media/po-network-cover.06005cc730a344672f5e.png",
+    "static/media/vtaiwan-cover.png": "/shuyanglin/static/media/vtaiwan-cover.a38ce2bd8691759c6f00.png",
+    "static/media/griphint-cover.jpg": "/shuyanglin/static/media/griphint-cover.17013723801c791669a6.jpg",
+    "static/media/po-network.md": "/shuyanglin/static/media/po-network.49f51e4eb3cdb2894df4.md",
+    "static/media/vtaiwan.md": "/shuyanglin/static/media/vtaiwan.d55f9351547ed7440edf.md",
+    "static/media/griphint.md": "/shuyanglin/static/media/griphint.2818186467eb4c1d7bbc.md",
+    "index.html": "/shuyanglin/index.html",
+    "main.8cfc2d74.css.map": "/shuyanglin/static/css/main.8cfc2d74.css.map",
+    "main.c87f7acd.js.map": "/shuyanglin/static/js/main.c87f7acd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cfc2d74.css",
+    "static/js/main.c87f7acd.js"
+  ]
+}

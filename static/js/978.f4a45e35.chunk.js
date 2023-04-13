@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkPortfolio=self.webpackChunkPortfolio||[]).push([[978],{1978:function(e,t,o){e.exports=o.p+"static/media/vtaiwan.d55f9351547ed7440edf.md"}}]);
