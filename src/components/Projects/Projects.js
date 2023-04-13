@@ -31,10 +31,6 @@ function Projects({page}) {
   
   return (
     <> 
-      
-
-
-
       <h1>Projects</h1>
       <Container className={styles.container}>
       {page=="list" &&

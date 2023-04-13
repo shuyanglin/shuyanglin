@@ -18,7 +18,7 @@ function App() {
       <div className='container'> 
         <Routes>
           {/* navigation */}
-          <Route path="/" element={<Home/>}></Route>
+          <Route path="/" element={<About/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/projects" element={<Projects page={"list"}/>}></Route>
           <Route path="/notes" element={<Notes/>}></Route>
@@ -26,9 +26,9 @@ function App() {
           <Route path="*" element={<Navigate to="/" />}></Route>
 
           {/* projects */}
-          <Route path="/projects/griphint" element={<Project name={"Griphint"}/>}></Route>
-          <Route path="/projects/vtaiwan" element={<Project name={"vTaiwan"}/>}></Route>
-          <Route path="/projects/po-network" element={<Project name={"Participation Officer Network"}/>}></Route>
+          <Route path="/projects/griphint" element={<Project slug={"griphint"}/>}></Route>
+          <Route path="/projects/vtaiwan" element={<Project slug={"vtaiwan"}/>}></Route>
+          <Route path="/projects/po-network" element={<Project slug={"po-network"}/>}></Route>
       
         </Routes>
       </div>
