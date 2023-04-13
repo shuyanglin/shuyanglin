@@ -11,6 +11,10 @@
     min-height: 5rem;
 }    
 
+.row a {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 576px){
     .header{
         background-color: rgb(255, 238, 0);

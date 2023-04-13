@@ -2,6 +2,10 @@
     padding: 2rem;
 }
 
+.container a{
+    text-decoration: none;
+}
+
 .card{
     margin-top: 2rem;
     

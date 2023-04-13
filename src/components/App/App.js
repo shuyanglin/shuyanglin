@@ -17,6 +17,7 @@ function App() {
       <NavigationBar/>
       <div className='container'> 
         <Routes>
+          {/* navigation */}
           <Route path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/projects" element={<Projects page={"list"}/>}></Route>
@@ -24,10 +25,10 @@ function App() {
           <Route path="/calendar" element={<Calendar/>}></Route>
           <Route path="*" element={<Navigate to="/" />}></Route>
 
- 
-          <Route path="/projects/griphint" element={<Project name={"griphint"}/>}></Route>
-          <Route path="/projects/vtaiwan" element={<Project name={"vtaiwan"}/>}></Route>
-          <Route path="/projects/po-network" element={<Project name={"po-network"}/>}></Route>
+          {/* projects */}
+          <Route path="/projects/griphint" element={<Project name={"Griphint"}/>}></Route>
+          <Route path="/projects/vtaiwan" element={<Project name={"vTaiwan"}/>}></Route>
+          <Route path="/projects/po-network" element={<Project name={"Participation Officer Network"}/>}></Route>
       
         </Routes>
       </div>

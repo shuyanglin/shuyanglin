@@ -1,10 +1,11 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 
+
 function Project({name}) {
   return (
     <>
-      <h1> <Link to="/projects">Project</Link> / {name}</h1>
+      <h1> <Link to="/projects"> \ </Link> / {name}</h1>
     </>
   );
 }

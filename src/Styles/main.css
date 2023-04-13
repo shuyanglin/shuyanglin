@@ -66,3 +66,7 @@ header .responsiveNav{
     margin: 0 auto 50px;
     min-height: 100vh;
 }
+
+a {
+  color: #222;
+}
