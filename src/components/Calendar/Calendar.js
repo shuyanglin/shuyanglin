@@ -5,8 +5,9 @@ import styles from './Calendar.module.css'
 function Calendar() {
   return (
     <>
-      <h1>Calendar</h1>
+      
       <Container className={styles.container}>
+      <h1 class="title">Calendar</h1>
       <Row className={styles.header}>
         <Col sm={2}>
           Date

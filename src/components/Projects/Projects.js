@@ -31,8 +31,9 @@ function Projects({page}) {
   
   return (
     <> 
-      <h1>Projects</h1>
+      
       <Container className={styles.container}>
+      <h1 className="title">Projects</h1>
       {page=="list" &&
           <>
           { project.map( proj => { return (

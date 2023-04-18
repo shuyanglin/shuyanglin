@@ -1,8 +1,9 @@
 {
-  "name": "toast-component",
+  "name": "Portfolio",
   "version": "0.1.0",
+  "homepage": "https://shuyanglin.github.io/shuyanglin",
   "private": true,
-  "author": "Josh Comeau <me@joshwcomeau.com>",
+  "author": "Shu Yang Lin <shuyanglin.tw@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,300&display=swap');
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Titillium Web', sans-serif;
-}
+
 
 
 :root{
@@ -18,13 +12,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
-  padding: 1.5rem 2.5rem;
-  border-bottom: 0.0625rem solid #bbb;
-  background-color: var(--mainColor);
+  margin-top: 20px;
+  height: 160px;
+  padding: 4rem 14rem;
   color: var(--textColor);
-  /* border-radius: 0.75rem;
-  margin: 1rem; */
 }
 
 nav a {
@@ -45,13 +36,34 @@ header .navBtn {
   border: none;
   outline: none;
   color: var(--textColor);
-  /* visibility: hidden;
-  opacity: 0; */
   font-size: 1.2rem;
   display: none;
 }
 
+@media only screen and (max-width: 1400px){
+  header {
+    padding: 2.5rem 10rem;
+    height: 140px;
+    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  header {
+    padding: 2.5rem 8rem;
+    height: 140px;
+    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
+  }
+}
+
+
 @media only screen and (max-width: 1024px){
+  header {
+    height: 80px;
+    padding: 2.5rem 6rem;
+    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
+  }
+  
   header .navBtn{
     /* visibility: visible;
     opacity: 1; */
@@ -80,5 +92,12 @@ header .navBtn {
     position: absolute;
     top: 2rem;
     right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  header {
+    padding: 2.5rem 4rem;
+    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
   }
 }

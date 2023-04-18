@@ -3,7 +3,6 @@ import {Route, Routes, Navigate } from 'react-router-dom';
 
 import NavigationBar from '../NavigationBar';
 import About from '../About/About'
-import Home from '../Home/Home';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer';
 import Notes from '../Notes/Notes';

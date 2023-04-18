@@ -1,18 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from 'react-grid-system';
-import hero from '../../assets/democracy-in-taiwan.jpg';
+import hero from '../../assets/shu_about.jpg';
 import styles from './About.module.css';
 function About() {
   return (
   <>
-    <h1>About</h1>  
+    
     <Container>
     <Row>
      
       <Col sm={12}>
       <section>
       
-      <img alt="cover image for about page" src={hero}></img>
+      <img alt="about shu" src={hero}></img>
       <div className={styles.description}>
         Shu Yang Lin is a re:architect who is passionate about large-scale consensus finding. Through her work with Digital Minister Audrey Tang in the government of Taiwan, Shu creates interfaces that tangibly demonstrate the broad potential of human and AI interactions. As AI becomes increasingly prevalent in our lives, Shu has dedicated herself to surfacing important questions surrounding the representation of non-humans through conversational AI in the context of policy-making processes, in order to achieve optimal outcomes for the planet. By tangibly demonstrating the possibilities and limitations of human-AI cooperation, she hopes to inspire new ways of thinking about the intersection of technology and humanity.
       </div>
@@ -31,7 +31,7 @@ function About() {
       </p>
       <br/>
       <p>
-      Shu Yang Lin holds double master's degrees in computer science from National Taiwan University and interaction design from Copenhagen Institute of Interaction Design. Currently, she is part of the team at <a href="http://pdis.tw" target="_blank">PDIS</a>, an innovation lab in the central government of Taiwan that works on open government, social innovation and youth council. The lab provides channels for civic engagements, establishes <a href="https://po.pdis.tw/en/">cross-ministerial policy making process</a>, collaborates with grassroots civic tech communities on <a href="http://vtaiwan.tw/">digital regulatory reforms</a>, and supports the operation of <a href="https://silab.sme.gov.tw" target="_blank">social innovation lab</a>.
+      Shu Yang Lin holds double master's degrees in computer science from National Taiwan University and interaction design from Copenhagen Institute of Interaction Design. Currently, she is part of the team at <a href="http://pdis.tw" target="_blank" rel="noreferrer">PDIS</a>, an innovation lab in the central government of Taiwan that works on open government, social innovation and youth council. The lab provides channels for civic engagements, establishes <a href="https://po.pdis.tw/en/">cross-ministerial policy making process</a>, collaborates with grassroots civic tech communities on <a href="http://vtaiwan.tw/">digital regulatory reforms</a>, and supports the operation of <a href="https://silab.sme.gov.tw" target="_blank">social innovation lab</a>.
       </p>
       <br/>
       <p>
