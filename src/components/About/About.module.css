@@ -1,21 +1,14 @@
-section {
-    padding: 2rem;
-    margin-bottom: 3rem;
+
+.memoji {
+    width: 250px;
+    margin-bottom: 2rem;
 }
 
-.description {
-    position: absolute;
-    transform: translate(-5vw, -30vh);
-    background-color: #eee;
-    padding: 2rem 2.5rem;
-    max-width: 600px;
+p{
+    margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 1024px){
-    .description {
-        position: relative;
-        transform: translate(0);
-        max-width: none;
-    }
-
+h3{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }

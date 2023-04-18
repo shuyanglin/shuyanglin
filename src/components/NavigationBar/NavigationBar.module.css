@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   margin-top: 20px;
   height: 160px;
-  padding: 4rem 14rem;
+  /* padding: 4rem 14rem; */
   color: var(--textColor);
 }
 
@@ -40,28 +40,14 @@ header .navBtn {
   display: none;
 }
 
-@media only screen and (max-width: 1400px){
-  header {
-    padding: 2.5rem 10rem;
-    height: 140px;
-    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
-  }
-}
 
-@media only screen and (max-width: 1200px){
-  header {
-    padding: 2.5rem 8rem;
-    height: 140px;
-    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
-  }
-}
 
 
 @media only screen and (max-width: 1024px){
   header {
-    height: 80px;
-    padding: 2.5rem 6rem;
-    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
+    height: 100px;
+    padding: 2rem 2rem;
+    transition: height .4s ease-in-out;
   }
   
   header .navBtn{
@@ -95,9 +81,3 @@ header .navBtn {
   }
 }
 
-@media only screen and (max-width: 576px){
-  header {
-    padding: 2.5rem 4rem;
-    transition: padding-top .4s ease-in-out, padding-bottom .4s ease-in-out;
-  }
-}

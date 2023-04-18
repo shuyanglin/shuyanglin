@@ -1,47 +1,37 @@
 import React from "react";
 import { Container, Row, Col } from 'react-grid-system';
-import hero from '../../assets/shu_about.jpg';
+import hero from '../../assets/memoji.jpg';
 import styles from './About.module.css';
 function About() {
   return (
-  <>
-    
+  
     <Container>
     <Row>
-     
-      <Col sm={12}>
-      <section>
+      <Col lg={4} sm={12}>
+        <img className={styles.memoji} alt="about shu" src={hero}></img>
+      </Col>
+      <Col lg={8} sm={12}>
+      <p>
+        Hi there, I am Shu, an independent re:architect. I have a passion for building consensus on a large scale. My specialty is designing interactions and discovering elegant solutions through an iteractive process of creating and testing protoypes that foster digital democracy. With today’s technology, I believe we can find consensus on a national scale.
+      </p>
+      <p>
+        I am currently working on a joint project between the <a href="https://moda.gov.tw/">Ministry of Digital Affairs of the Taiwanese government</a> and <a href="https://darkmatterlabs.org/">Dark Matter Laboratories</a>. 
+      </p>
+      <p>In my free time, I enjoy jogging, cooking, and coding.</p>
       
-      <img alt="about shu" src={hero}></img>
-      <div className={styles.description}>
-        Shu Yang Lin is a re:architect who is passionate about large-scale consensus finding. Through her work with Digital Minister Audrey Tang in the government of Taiwan, Shu creates interfaces that tangibly demonstrate the broad potential of human and AI interactions. As AI becomes increasingly prevalent in our lives, Shu has dedicated herself to surfacing important questions surrounding the representation of non-humans through conversational AI in the context of policy-making processes, in order to achieve optimal outcomes for the planet. By tangibly demonstrating the possibilities and limitations of human-AI cooperation, she hopes to inspire new ways of thinking about the intersection of technology and humanity.
-      </div>
-        
-      </section>
+      <h3>Background</h3>
+      <p>
+        I am a double master's holder in Human Computer Interaction from National Taiwan University and Interaction Design from Copenhagen Institute of Interaction Design. In 2016, I co-founded <a href="http://pdis.tw" target="_blank" rel="noreferrer">PDIS</a> alongside Digital Minister Audrey Tang, an innovation lab in the Taiwanese government that focuses on open government, social innovation and youth council. 
+        PDIS provides channels for civic engagements, establishes <a href="https://po.pdis.tw/en/">cross-ministerial policy making process</a>, collaborates with grassroots civic tech communities on <a href="http://vtaiwan.tw/">digital regulatory reforms</a>, and supports the operation of <a href="https://silab.sme.gov.tw" target="_blank">social innovation lab</a>.
+      </p>
+      <p>
+      The work has been widely recognized, with features in prominent media outlets such as <a href="https://www.nytimes.com/2019/10/15/opinion/taiwan-digital-democracy.html">The New York Times</a>, <a href="https://www.theguardian.com/world/2020/sep/27/taiwan-civic-hackers-polis-consensus-social-media-platform">The Guardian</a> and <a href="https://www.technologyreview.com/2018/08/21/240284/the-simple-but-ingenious-system-taiwan-uses-to-crowdsource-its-laws/">MIT Technology Review</a>, In addition, I have been invited to speak at numerous events, including Open-Source Institutions Talks, <a href="https://www.youtube.com/watch?v=GRovRIcdxJA">The Conference</a>, <a href="https://www.youtube.com/watch?v=8Gr5Y0XhEFI">Above All Humans</a>, Ciudades Democráticas, <a href="https://www.youtube.com/watch?v=3oosyClc_FQ">Forum Offene Stadt</a>, and awarded with <a href="https://vimeo.com/254889243/2c5a8a49a4?fbclid=IwAR2ncEyMOxnRmSv8wF9oonIWtN-BxRqHSdlRLEeRvqFpsA_ctYg62oyofAo">Future Voices in IxDA</a>.
+      </p>
       </Col> 
     </Row>
-    <Row>
-      <Col lg={2} sm={1}>
-      </Col>  
-      <Col lg={8} sm={10}>
-      <p>
-      Shu Yang Lin is a re:architect based in London. She is currently working on a joint project between the <a href="https://moda.gov.tw/">Ministry of Digital Affairs</a> and <a href="https://darkmatterlabs.org/">Dark Matter Laboratories</a>. 
-      Working in the field between HCI and interaction design she design interactions to explore the creative potentials machine-supported consensus finding.
-      She has presented at Open-Source Institutions Talks, The Conference, Above All Humans, Ciudades Democráticas, Forum Offene Stadt, and awarded with Future Voices in IxDA.
-      </p>
-      <br/>
-      <p>
-      Shu Yang Lin holds double master's degrees in computer science from National Taiwan University and interaction design from Copenhagen Institute of Interaction Design. Currently, she is part of the team at <a href="http://pdis.tw" target="_blank" rel="noreferrer">PDIS</a>, an innovation lab in the central government of Taiwan that works on open government, social innovation and youth council. The lab provides channels for civic engagements, establishes <a href="https://po.pdis.tw/en/">cross-ministerial policy making process</a>, collaborates with grassroots civic tech communities on <a href="http://vtaiwan.tw/">digital regulatory reforms</a>, and supports the operation of <a href="https://silab.sme.gov.tw" target="_blank">social innovation lab</a>.
-      </p>
-      <br/>
-      <p>
-      When not at work, she enjoys jogging along river banks, cooking perfect soft boiled eggs and browsing Brackeys Unity tutorials.
-      </p>
-      </Col>
-      
-    </Row>
+
   </Container>  
-  </>
+  
   );
 }
 

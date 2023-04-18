@@ -13,8 +13,8 @@ function App() {
 
   return (
     <>
-      <NavigationBar/>
       <div className='container'> 
+      <NavigationBar/>
         <Routes>
           {/* navigation */}
           <Route path="/" element={<About/>}></Route>
