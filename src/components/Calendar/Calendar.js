@@ -4,11 +4,10 @@ import styles from './Calendar.module.css'
 
 function Calendar() {
   return (
-    <>
-      
-      <Container className={styles.container}>
-      <h1 class="title">Calendar</h1>
-      <Row className={styles.header}>
+      <Container >
+      <h1>Calendar</h1>
+      <p>Here are some of the public or semi-public events on my calendar.</p>
+      <Row className={styles.tableHeader}>
         <Col sm={2}>
           Date
         </Col>
@@ -145,7 +144,6 @@ function Calendar() {
         </Col>
       </Row>
       </Container>
-    </>
   );
 }
 

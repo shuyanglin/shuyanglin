@@ -5,7 +5,7 @@ import styles from './About.module.css';
 function About() {
   return (
   
-    <Container>
+  <Container>
     <Row>
       <Col lg={4} sm={12}>
         <img className={styles.memoji} alt="about shu" src={hero}></img>

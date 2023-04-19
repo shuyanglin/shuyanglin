@@ -1,58 +1,62 @@
-.container{
-    padding: 2rem;
+
+.projects{
+    margin-bottom: 3rem;
 }
 
-.container a{
+
+.projects a {
     text-decoration: none;
 }
 
+
 .card{
-    margin-top: 2rem;
-    
+    padding: 1.25rem 1.75rem;
+    border-radius: 0.25rem;
 }
 
 .card h2{
-    color: #222;
-    
+    margin-top: 1rem;
+    color: #222;    
+    font-weight: 600;
 }
 
 .card img{
-    width: 80%;
-    height: auto;
+    max-height: 300px;
     overflow: hidden;
-    margin-bottom: 40px;
-    border: 1px solid #456;
+    border: 0.5px solid #222;
+    border-radius: 0.25rem;
 }
 
 .card:hover{
-    opacity: 0.7;
+    background-color: #eee;
 }
 
 .card p{
-    font-size: 1.25rem;
-    color: #999;
-    margin-bottom: 1rem;
-    
+    /* font-size: 1.25rem; */
+    color: #999;   
 }
 
 @media only screen and (max-width: 1024px){
-    .card{
-        margin-top: 1rem;;
-    }
     
+    .projects{
+        margin-bottom: 1rem;
+        padding: 0.25rem;
+    }
+
+    .projects h1{
+        font-size: 1.75rem;
+    }
+
+    .card{
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+    }
+
     .card h2{
-        color: #222;
         font-size: 1.25rem;
     }
 
-    .card p{
-        font-size: 1rem;
-        
-    }
-
     .card img{
-        width: 100%;
-        min-height: 20px;
-        margin-bottom: 20px;
+        max-height: 400px;
     }
 }
