@@ -14,7 +14,6 @@ header {
   justify-content: space-between;
   margin-top: 20px;
   height: 160px;
-  /* padding: 4rem 14rem; */
   color: var(--textColor);
 }
 
@@ -39,7 +38,6 @@ header .navBtn {
   font-size: 1.2rem;
   display: none;
 }
-
 
 
 

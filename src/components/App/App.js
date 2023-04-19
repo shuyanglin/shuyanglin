@@ -15,21 +15,21 @@ function App() {
     <>
       <div className='container'> 
       <NavigationBar/>
-        <Routes>
-          {/* navigation */}
-          <Route path="/" element={<About/>}></Route>
-          <Route path="/about" element={<About/>}></Route>
-          <Route path="/projects" element={<Projects page={"list"}/>}></Route>
-          <Route path="/notes" element={<Notes/>}></Route>
-          <Route path="/calendar" element={<Calendar/>}></Route>
-          <Route path="*" element={<Navigate to="/" />}></Route>
+          <Routes>
+            {/* navigation */}
+            <Route path="/" element={<About/>}></Route>
+            <Route path="/about" element={<About/>}></Route>
+            <Route path="/projects" element={<Projects page={"list"}/>}></Route>
+            <Route path="/notes" element={<Notes/>}></Route>
+            <Route path="/calendar" element={<Calendar/>}></Route>
+            <Route path="*" element={<Navigate to="/" />}></Route>
 
-          {/* projects */}
-          <Route path="/projects/griphint" element={<Project slug={"griphint"}/>}></Route>
-          <Route path="/projects/vtaiwan" element={<Project slug={"vtaiwan"}/>}></Route>
-          <Route path="/projects/po-network" element={<Project slug={"po-network"}/>}></Route>
-      
-        </Routes>
+            {/* projects */}
+            <Route path="/projects/griphint" element={<Project slug={"griphint"}/>}></Route>
+            <Route path="/projects/vtaiwan" element={<Project slug={"vtaiwan"}/>}></Route>
+            <Route path="/projects/po-network" element={<Project slug={"po-network"}/>}></Route>
+        
+          </Routes>
       </div>
       <Footer />
     </>

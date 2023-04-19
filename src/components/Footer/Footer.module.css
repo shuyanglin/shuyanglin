@@ -1,24 +1,32 @@
 .wrapper {
-  padding: 2rem 1rem 4rem;
-  /* max-width: 500px; */
-  /* margin: 32px auto; */
-  text-align: center;
-  background-color: #ddd;
-  height: 50px;
+  padding: 2rem 1rem 3rem;
+  background-color: #222; 
+  color: #fff;
+  
+  width: 100%;
 }
 
+.wrapper h3{
+  margin: 0px;
+}
 .wrapper p {
   font-size: 0.875rem;
 }
 
-.wrapper p a {
-  font-weight: 700;
+.socialTabs a {
+  color: #666;
+  font-size: 1.25rem;
+}
+
+.footerTabs{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footerTabs a {
+  font-weight: 300;
   text-decoration: none;
-  color: hsl(0, 0%, 0%);
-}
-.wrapper p a:hover {
-  text-decoration: underline;
-}
-.wrapper p:not(:last-of-type) {
-  margin-bottom: 1em;
+  color: #fff;
+  border-left: 0.5px solid white;
+  padding-left: 0.5rem;
 }
