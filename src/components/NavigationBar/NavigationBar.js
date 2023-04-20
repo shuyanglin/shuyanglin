@@ -9,7 +9,7 @@ function Header() {
   const [isResponsive, setIsResponsive] = React.useState();
 
   const navStyle = "responsiveNav";
-  function showNavbar(){
+  function toggleNavbar(){
     setIsResponsive(!isResponsive);
   }
 
@@ -20,15 +20,15 @@ function Header() {
         <p>re:architect</p>
       </div>
       <nav className={isResponsive?navStyle:undefined}>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
+        <Link to="/about" onClick={toggleNavbar}>About</Link>
+        <Link to="/projects" onClick={toggleNavbar}>Projects</Link>
         {/* <Link to="/notes">Weekly Notes</Link> */}
-        <Link to="/calendar">Calendar</Link>
-        <button className={`${styles.navBtn} ${styles.navCloseBtn}`} onClick={showNavbar}>
+        <Link to="/calendar" onClick={toggleNavbar}>Calendar</Link>
+        <button className={`${styles.navBtn} ${styles.navCloseBtn}`} onClick={toggleNavbar}>
           <FaTimes/>
         </button>
       </nav>
-      <button className={styles.navBtn} onClick={showNavbar}>
+      <button className={styles.navBtn} onClick={toggleNavbar}>
         <FaBars/>
       </button>
     </header>

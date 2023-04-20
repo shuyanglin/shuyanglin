@@ -66,16 +66,16 @@ header .navBtn {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--mainColor);
+    background-color: whitesmoke;
     transition: 0s;
     transform: translateY(-100vh);
-    z-index: 999;
+    z-index: 5;
   }
 
 
   nav .navCloseBtn{
     position: absolute;
-    top: 2rem;
+    top: 4rem;
     right: 2rem;
   }
 }
