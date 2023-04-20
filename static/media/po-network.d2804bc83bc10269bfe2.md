@@ -16,15 +16,19 @@ PO Network is the work of many. It was built on previous efforts of citizen part
 Here are two key steps that set the start of Participation Officer Network:
 
  1. Identify change-makers
+
  To break silos, it is important to leverage and identify a group of civil servants who are already doing it. Audrey Tang, Digital Minister who heads PDIS, was one of the strongest advocates behind this at the start. This was also largely agreed among all PDIS members. We thought that the change needed to come from the government (instead of a contracted consultant) for sustainable growth. Therefore, it was a critical step to recruit and identify civil servants who are passionate about their work so that they can act as change-makers. 
-
-[Observations and actions 2016-2017](https://issuu.com/pdis.tw/docs/opening)
-
- 2. Empower the change-makers To best empower the change-makers, it's important to hear their ideas and provide them with the resources. We positioned PDIS as the supporting organisation, working closely with POs and empowering their initiatives. We made it clear again and again that PDIS would act as the "servant of public servants" and give them full power to act on behalf of PDIS if necessary.
+ 
+ [Observations and actions 2016-2017](https://issuu.com/pdis.tw/docs/opening)
 
 
+ 2. Empower the change-makers 
+ 
+ To best empower the change-makers, it's important to hear their ideas and provide them with the resources. We positioned PDIS as the supporting organisation, working closely with POs and empowering their initiatives. We made it clear again and again that PDIS would act as the "servant of public servants" and give them full power to act on behalf of PDIS if necessary.
 
-# "How might we rearchitect public sector and share agenda setting power with citizens?"
+
+
+> How might we rearchitect public sector and share agenda setting power with citizens?
 
 ## How it Works
 - Monthly meeting
@@ -84,4 +88,4 @@ There are more than 200 distinct peaks over 3,000 meters in height in Taiwan. Fo
 
 Relevant stakeholders were invited to participate in a collaboration meeting, and a digital survey tool, Pol.is, was used to gather wider opinions across the Internet. It became apparent that an integrated system for mountain climbing applications. PDIS involved student interns in building mockups and testing them. With limited resources, the final solution called for RESTful API (Open API Specification 3.0), commissioning original IT system makers to build API, and another contractor to build an integrated system.
 
-![image](https://uploads-ssl.webflow.com/63b058452091f12771549e66/63fe3624b069a92b4553ee01_part1.png)
+![image](https://uploads-ssl.webflow.com/63b058452091f12771549e66/644106ae4ee0d773bd3bb5f5_63fe3624b069a92b4553ee01_part1.png)
