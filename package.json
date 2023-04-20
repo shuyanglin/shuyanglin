@@ -1,7 +1,7 @@
 {
   "name": "Portfolio",
   "version": "0.1.0",
-  "homepage": "https://shuyanglin.github.io/shuyanglin",
+  "homepage": "https://shuyanglin.github.io",
   "private": true,
   "author": "Shu Yang Lin <shuyanglin.tw@gmail.com>",
   "dependencies": {
