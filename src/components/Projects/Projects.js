@@ -32,7 +32,7 @@ function Projects({page}) {
   
   return (
     <>
-    <Container className={styles.projects}>
+    <div className={styles.projects}>
       <h1>Fetured Projects</h1>
       <p>Here are some featured projects that showcase the work of PDIS.</p>
       {page=="list" &&
@@ -48,8 +48,8 @@ function Projects({page}) {
           )})}
           </Row>
       }    
-    </Container>
-    <Container className={styles.projects}>
+    </div>
+    <div className={styles.projects}>
     <h1>Other Projects</h1>
     <p>Here are some other projects that I enjoyed working on in my past experience.</p>
     {page=="list" &&
@@ -65,7 +65,7 @@ function Projects({page}) {
           )})}
         </>
     }    
-  </Container>
+  </div>
   </>
     
   );

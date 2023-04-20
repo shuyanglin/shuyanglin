@@ -1,22 +1,38 @@
 
 .tableHeader{
-    background-color:#ddd;
+    min-height: 2rem;
+    font-weight: 700;
+    border-bottom: 1px black solid;
+    margin-top: 2rem;
+    display: block;
 }
 
 .row{
-    padding: 1rem;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
     min-height: 5rem;
 }    
 
-.row a {
-    text-decoration: underline;
+.row:hover{
+    background-color: whitesmoke;
+}
+
+.itemHeader{
+    display: none;
 }
 
 @media only screen and (max-width: 576px){
-    .header{
-        background-color: rgb(255, 238, 0);
-        transform: translateY(-100vh);
+    .tableHeader{
+        /* background-color: rgb(255, 238, 0); */
+        /* transform: translateY(-100vh); */
+        display: none !important;
     }
     
+    .date{
+        font-weight: 800;
+    }
 
+    .itemHeader{
+        display: block;
+    }
 }
