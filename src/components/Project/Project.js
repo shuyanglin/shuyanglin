@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import styles from './Project.module.css'
+import {FaHome} from 'react-icons/fa';
 
 function Project({slug}) {
   const [post, setPost] = React.useState('');
@@ -18,10 +19,19 @@ function Project({slug}) {
 
   return (
     <>
-      {/* <h1 className={styles.mardown}> <Link to="/projects"> Projects </Link> / {slug}</h1> */}
-      <Markdown >
+      <div className={styles.markdown}> 
+
+      
+      <div className={styles.breadcrumb}>
+      <Link to="/">home</Link>
+        /{' '}<Link to="/projects">projects</Link>{' '}
+        /{' '}<Link className={styles.current} to=".">{slug}</Link>
+      </div>
+
+      <Markdown>
         {post}
       </Markdown>
+      </div>
     </>
   );
 }
