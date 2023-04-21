@@ -30,6 +30,7 @@ function App() {
             <Route path="/projects/griphint" element={<Project slug={"griphint"}/>}></Route>
             <Route path="/projects/vtaiwan" element={<Project slug={"vtaiwan"}/>}></Route>
             <Route path="/projects/po-network" element={<Project slug={"po-network"}/>}></Route>
+            <Route path="/projects/river-chatbot" element={<Project slug={"river-chatbot"}/>}></Route>
         
           </Routes>
       </div>

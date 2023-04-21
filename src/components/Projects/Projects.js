@@ -4,10 +4,20 @@ import styles from './Projects.module.css'
 import griphintImgSrc from '../../assets/griphint-cover.jpg'
 import poImgSrc from '../../assets/po-network-cover.png'
 import vtaiwanImgSrc from '../../assets/vtaiwan-cover.png'
+import riverImgSrc from '../../assets/river-chatbot-cover.jpg'
 import {Link} from 'react-router-dom';
 
 
 function Projects({page}) {
+  const current_projects = [{
+    slug: "river-chatbot",
+    title: "Say Hi to the River ",
+    imgSrc: riverImgSrc,
+    description: "Conversational AI for non-human entities",
+    category: "Respobsible AI"
+  }]
+
+
   const featured_projects = [{
     slug: "po-network",
     title: "Participation Officer Network",
@@ -32,6 +42,23 @@ function Projects({page}) {
   
   return (
     <>
+    <div className={styles.projects}>
+      <h1>Current Projects</h1>
+      <p>Here are some of the projects that I am working on at the moment.</p>
+      {page=="list" &&
+          <Row> 
+          { current_projects.map( proj => { return (
+            
+              <Col xl={6} lg={12}>
+                <Link to={`/projects/${proj.slug}`}>
+                  <Card imgSrc={proj.imgSrc} title={proj.title} description={proj.description}/>
+                </Link>
+              </Col>
+            
+          )})}
+          </Row>
+      }    
+    </div>
     <div className={styles.projects}>
       <h1>Fetured Projects</h1>
       <p>Here are some featured projects that showcase the work of PDIS.</p>
