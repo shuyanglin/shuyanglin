@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import styles from './Project.module.css'
-import {FaHome} from 'react-icons/fa';
 
 function Project({slug}) {
   const [post, setPost] = React.useState('');

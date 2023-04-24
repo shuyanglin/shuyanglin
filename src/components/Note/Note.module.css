@@ -1,0 +1,26 @@
+.markdown h2{   
+    margin-top: 20px;   
+}
+
+.markdown .breadcrumb{
+    display: inline;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: whitesmoke;
+    color: #999;
+}
+
+.markdown .breadcrumb a{
+    text-decoration: none;
+    color: #999;
+}
+
+.markdown .breadcrumb a:hover{
+    color: tomato;
+}
+
+.markdown .breadcrumb a:last-child{
+    color: #222;
+}

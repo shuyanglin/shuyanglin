@@ -1,14 +1,16 @@
 import React from 'react';
-import {Route, Routes, Navigate } from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 
 import NavigationBar from '../NavigationBar';
 import About from '../About/About'
 import Projects from '../Projects/Projects';
+import Project from "../Project/Project";
 import Footer from '../Footer';
 import Notes from '../Notes/Notes';
+import Note from '../Note/Note'
 import Calendar from '../Calendar/Calendar';
-import Project from "../Project/Project";
 import NotFound from '../NotFound/NotFound';
+
 
 function App() {
 
@@ -24,7 +26,6 @@ function App() {
             <Route path="/notes" element={<Notes/>}></Route>
             <Route path="/calendar" element={<Calendar/>}></Route>
             <Route path="*" element={<NotFound/>}></Route>
-            {/* <Route path="*" element={<Navigate to="/" />}></Route> */}
 
             {/* projects */}
             <Route path="/projects/griphint" element={<Project slug={"griphint"}/>}></Route>
@@ -32,6 +33,11 @@ function App() {
             <Route path="/projects/po-network" element={<Project slug={"po-network"}/>}></Route>
             <Route path="/projects/river-chatbot" element={<Project slug={"river-chatbot"}/>}></Route>
         
+            {/* notes */}
+            <Route path="/notes/2023-04-17" element={<Note slug={"2023-04-17"}/>}></Route>
+            <Route path="/notes/2023-04-24" element={<Note slug={"2023-04-24"}/>}></Route>
+
+
           </Routes>
       </div>
       <Footer />

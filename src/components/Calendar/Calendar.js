@@ -5,6 +5,13 @@ import styles from './Calendar.module.css'
 function Calendar() {
 
   const commitment = [{
+    date: '2023.9.4-5',
+    type: 'Exhibition',
+    topic: 'Who owns the truth?',
+    organisation: 
+    [{name:'Ars Eletronica', link: "https://ars.electronica.art/festival/en/"}],
+    location: 'Linz, Austria'
+  },{
     date: '2023.5.11',
     type: 'Workshop',
     topic: 'Pol.is and Chat GPT workshop',
@@ -137,6 +144,12 @@ function Calendar() {
     topic: 'A Call for Collaboration',
     organisation: [{name: 'TEDxNCTU', link: "https://www.ted.com/tedx/events/10477"}],
     location: 'Hsinchu, Taiwan'
+  },{
+    date: '2018.3.13-17',
+    type: 'Workshop',
+    topic: 'CrowdLaw',
+    organisation: [{name: 'The GovLab', link: "https://www.ted.com/tedx/events/10477"}],
+    location: 'Belagio, Italy'
   },{
     date: '2017.9.2-8',
     type: 'Presentation',
