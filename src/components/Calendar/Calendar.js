@@ -5,7 +5,7 @@ import styles from './Calendar.module.css'
 function Calendar() {
 
   const commitment = [{
-    date: '2023.9.4-5',
+    date: '2023.9.4-10',
     type: 'Exhibition',
     topic: 'Who owns the truth?',
     organisation: 
