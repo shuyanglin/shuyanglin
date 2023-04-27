@@ -19,6 +19,9 @@ function Footer() {
             <Link to="/projects">Projects</Link>
           </Col>
           <Col xxl={2} xl={1} lg={2} md={3} sm={3} xs={12}>
+            <Link to="/notes">Notes</Link>
+          </Col>
+          <Col xxl={2} xl={1} lg={2} md={3} sm={3} xs={12}>
             <Link to="/calendar">Calendar</Link>
           </Col>
         </Row>

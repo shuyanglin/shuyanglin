@@ -6,7 +6,7 @@ function Notes() {
   const allWeeksNotes = [{
     date: "2023-04-17",
     slug: "2023-04-17",
-    about: "AI for Institution"    
+    about: "AI for Institutions"    
   },{
     date: "2023-04-24",
     slug: "2023-04-24",    

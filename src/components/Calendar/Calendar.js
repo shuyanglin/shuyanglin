@@ -12,6 +12,13 @@ function Calendar() {
     [{name:'Ars Eletronica', link: "https://ars.electronica.art/festival/en/"}],
     location: 'Linz, Austria'
   },{
+    date: '2023.5.13',
+    type: 'Workshop',
+    topic: 'Who owns the river Don?',
+    organisation: 
+    [{name:'The River Dôn Project', link: "https://www.theriverdon.org"}, {name:'DML', link: "https://darkmatterlabs.org"}, {name:'Lawyers for Nature', link: "https://www.lawyersfornature.com"}, {name:'Friends of the Cam', link: "https://www.friendsofthecam.org"}],
+    location: 'Sheffield, UK'
+  },{
     date: '2023.5.11',
     type: 'Workshop',
     topic: 'Pol.is and Chat GPT workshop',
@@ -27,7 +34,7 @@ function Calendar() {
   },{
     date: '2023.4.13-16',
     type: 'Workshop',
-    topic: 'AI for Institutional Design',
+    topic: 'AI for Institutions',
     organisation: [{name: 'Collective Intelligence Project', link: "http://cip.org/"}, {name: 'Cooperative AI Foundation', link:"https://www.cooperativeai.com/foundation"}],
     location: 'Oxford, UK'
   },{
