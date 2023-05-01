@@ -11,6 +11,10 @@ function Notes() {
     date: "2023-04-24",
     slug: "2023-04-24",    
     about: "ArtsElectronic"    
+  },,{
+    date: "2023-05-01",
+    slug: "2023-05-01",    
+    about: ""    
   }]
 
   return (
@@ -36,7 +40,12 @@ export default Notes;
 function NoteCard({weeklyNote}){
   return(
     <>
-      <p>Weekly note of {weeklyNote.date} about {weeklyNote.about}</p>
+      <p>Weekly note of {weeklyNote.date} 
+      {' '}
+      {weeklyNote.about && 
+        `about ${weeklyNote.about}`
+      }
+      </p>
     </>
   )
 }
