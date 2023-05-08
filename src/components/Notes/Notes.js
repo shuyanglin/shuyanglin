@@ -11,11 +11,16 @@ function Notes() {
     date: "2023-04-24",
     slug: "2023-04-24",    
     about: "ArtsElectronic"    
-  },,{
+  },{
     date: "2023-05-01",
     slug: "2023-05-01",    
     about: ""    
-  }]
+  },{
+    date: "2023-05-08",
+    slug: "2023-05-08",    
+    about: ""    
+  }
+]
 
   return (
     <>

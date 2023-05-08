@@ -21,7 +21,7 @@ function About() {
       
       <h3>Background</h3>
       <p>
-        I am a double master's holder in Human Computer Interaction from National Taiwan University and Interaction Design from Copenhagen Institute of Interaction Design. In 2016, I co-founded <a href="http://pdis.tw" target="_blank" rel="noreferrer">PDIS</a> alongside Minister without portfolio Audrey Tang, an innovation lab in the Taiwanese government that focuses on open government, social innovation and youth council. 
+        I am a double master's holder in Human Computer Interaction from National Taiwan University and Interaction Design from Copenhagen Institute of Interaction Design. In 2016, I joined <a href="http://pdis.tw" target="_blank" rel="noreferrer">PDIS</a> led by Minister without portfolio Audrey Tang, an innovation lab in the Taiwanese government that focuses on open government, social innovation and youth council.
         PDIS re-architects channels for civic engagements, including establishing <a href="https://po.pdis.tw/en/">cross-ministerial policy-making process</a>, collaborating with grassroots civic tech communities on <a href="http://vtaiwan.tw/">digital regulatory reforms</a>, and supporting the operation of <a href="https://silab.sme.gov.tw" target="_blank">a social innovation lab</a>.  Since the launch of the Ministry of Digital Affairs (MODA) in 2022, PDIS continues to work on public code for digital reselience under the lead of Digital Minister Audrey Tang.
       </p>
       <p>
