@@ -18,7 +18,7 @@ function Notes() {
   },{
     date: "2023-05-08",
     slug: "2023-05-08",    
-    about: ""    
+    about: "Conversational AI for Non-human Representation in Decision Making"    
   }
 ]
 

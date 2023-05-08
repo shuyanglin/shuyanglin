@@ -38,8 +38,7 @@ There are two parts in our implementation:
 
 2. The interface: we will build a simple chatbot interface, but also experiment with integrating with sound, audio, generative images variations. For example, we will potentially use Open [Frameworks](https://openframeworks.cc) to bridge multimedia outputs, and [Processing](https://openprocessing.org/) for generative images.
 
-Our implementation will be open-sourced, and our work will be CC BY-NC-SA 4.0
-[https://creativecommons.org/licenses/by-nc-sa/4.0/]
+Our implementation will be open-sourced, and our work will be [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Design Considerations
 
