@@ -19,6 +19,10 @@ function Notes() {
     date: "2023-05-08",
     slug: "2023-05-08",    
     about: "Conversational AI for Non-human Representation in Decision Making"    
+  },{
+    date: "2023-05-15",
+    slug: "2023-05-15",    
+    about: "Polis workshop as Newcastle"    
   }
 ]
 
