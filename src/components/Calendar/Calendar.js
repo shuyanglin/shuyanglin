@@ -12,9 +12,16 @@ function Calendar() {
     [{name:'Ars Eletronica', link: "https://ars.electronica.art/festival/en/"}],
     location: 'Linz, Austria'
   },{
+    date: '2023.5.16-18',
+    type: 'Offsite',
+    topic: 'DML Offsite',
+    organisation: 
+    [{name:'DML', link: "https://darkmatterlabs.org"}],
+    location: 'East Sussex, UK'
+  },{
     date: '2023.5.13',
     type: 'Workshop',
-    topic: 'Who owns the river Don?',
+    topic: 'Who owns the river Dôn?',
     organisation: 
     [{name:'The River Dôn Project', link: "https://www.theriverdon.org"}, {name:'DML', link: "https://darkmatterlabs.org"}, {name:'Lawyers for Nature', link: "https://www.lawyersfornature.com"}, {name:'Friends of the Cam', link: "https://www.friendsofthecam.org"}],
     location: 'Sheffield, UK'
