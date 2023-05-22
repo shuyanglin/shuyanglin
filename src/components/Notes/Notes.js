@@ -22,7 +22,11 @@ function Notes() {
   },{
     date: "2023-05-15",
     slug: "2023-05-15",    
-    about: "Polis workshop as Newcastle"    
+    about: "Polis workshop at Newcastle"    
+  },{
+    date: "2023-05-22",
+    slug: "2023-05-22",    
+    about: "camping by the sea"    
   }
 ]
 
