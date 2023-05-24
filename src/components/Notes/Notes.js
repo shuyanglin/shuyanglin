@@ -6,27 +6,27 @@ function Notes() {
   const allWeeksNotes = [{
     date: "2023-04-17",
     slug: "2023-04-17",
-    about: "AI for Institutions"    
+    about: "the AI for Institutions workshop at Oxford"    
   },{
     date: "2023-04-24",
     slug: "2023-04-24",    
-    about: "ArtsElectronic"    
+    about: "a meeting with DA0, discussing attending Ars Electronica, and meeting with Saffron"    
   },{
     date: "2023-05-01",
     slug: "2023-05-01",    
-    about: ""    
+    about: "tinkering a chatbot and catching up with Liz"    
   },{
     date: "2023-05-08",
     slug: "2023-05-08",    
-    about: "Conversational AI for Non-human Representation in Decision Making"    
+    about: "finalising documentation for Conversational AI for Non-human Representation in Decision Making and working with RxC"    
   },{
     date: "2023-05-15",
     slug: "2023-05-15",    
-    about: "Polis workshop at Newcastle"    
+    about: "teaching at Newcastle and attending river Don workshop at Sheffield."    
   },{
     date: "2023-05-22",
     slug: "2023-05-22",    
-    about: "camping by the sea"    
+    about: "joining the offsite gathering of DML and having a camping trip at Kent."    
   }
 ]
 
@@ -56,7 +56,7 @@ function NoteCard({weeklyNote}){
       <p>Weekly note of {weeklyNote.date} 
       {' '}
       {weeklyNote.about && 
-        `about ${weeklyNote.about}`
+        `, about ${weeklyNote.about}.`
       }
       </p>
     </>
