@@ -30,7 +30,7 @@ function Notes() {
   },{
     date: "2023-05-29",
     slug: "2023-05-29",    
-    about: "Reading Hypercerts' white papaer with Remarkable"
+    about: "Reading Hypercerts' white paper with Remarkable"
   }
 ]
 

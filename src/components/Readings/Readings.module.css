@@ -1,0 +1,71 @@
+
+.readings{
+    margin-bottom: 3rem;
+}
+
+
+.readings a {
+    text-decoration: none;
+}
+
+
+.card{
+    padding: 1rem 0.5rem;
+    border-radius: 0.25rem;
+    
+}
+
+.card h3{
+    margin-top: 0rem;
+    color: #222;    
+    font-weight: 600;
+}
+
+.card img{
+    max-width: 76px;
+    overflow: hidden;
+    border: 0.5px solid #222;
+    border-radius: 0.25rem;
+}
+
+.card:hover{
+    background-color: whitesmoke;
+}
+
+.card p{
+    /* font-size: 1.25rem; */
+    color: #999;   
+}
+
+@media only screen and (max-width: 1024px){
+    
+    .readings{
+        margin-bottom: 1rem;
+        padding: 0.25rem;
+    }
+
+    .readings h1{
+        font-size: 1.75rem;
+    }
+
+    .card{
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+    }
+
+    .card h3{
+        font-size: 1.25rem;
+    }
+
+    .card img{
+        max-width: 100px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 575px){
+    .card h3{    
+        margin-top: 1rem;
+    }
+}

@@ -8,6 +8,7 @@ import Project from "../Project/Project";
 import Footer from '../Footer';
 import Notes from '../Notes/Notes';
 import Note from '../Note/Note'
+import Readings from '../Readings/Readings'
 import Calendar from '../Calendar/Calendar';
 import NotFound from '../NotFound/NotFound';
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/projects" element={<Projects page={"list"}/>}></Route>
             <Route path="/notes" element={<Notes/>}></Route>
             <Route path="/calendar" element={<Calendar/>}></Route>
+            <Route path="/readings" element={<Readings/>}></Route>
             <Route path="*" element={<NotFound/>}></Route>
 
             {/* projects */}

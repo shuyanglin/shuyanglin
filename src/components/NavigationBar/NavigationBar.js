@@ -22,6 +22,7 @@ function Header() {
       <nav className={isResponsive?navStyle:undefined}>
         <Link to="/about" onClick={toggleNavbar}>About</Link>
         <Link to="/projects" onClick={toggleNavbar}>Projects</Link>
+        <Link to="/readings" onClick={toggleNavbar}>Readings</Link>
         <Link to="/notes" onClick={toggleNavbar}>Weekly Notes</Link>
         <Link to="/calendar" onClick={toggleNavbar}>Calendar</Link>
         <button className={`${styles.navBtn} ${styles.navCloseBtn}`} onClick={toggleNavbar}>
