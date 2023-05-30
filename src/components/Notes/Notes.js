@@ -6,7 +6,7 @@ function Notes() {
   const allWeeksNotes = [{
     date: "2023-04-17",
     slug: "2023-04-17",
-    about: "the AI for Institutions workshop at Wytham Abbey, Oxford"    
+    about: "AI for Institutions workshop at Wytham Abbey, Oxford"    
   },{
     date: "2023-04-24",
     slug: "2023-04-24",    
@@ -27,6 +27,10 @@ function Notes() {
     date: "2023-05-22",
     slug: "2023-05-22",    
     about: "DML offsite at East Sussex/ camping at Kent"    
+  },{
+    date: "2023-05-29",
+    slug: "2023-05-29",    
+    about: "Reading Hypercerts' white papaer with Remarkable"
   }
 ]
 
