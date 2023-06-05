@@ -5,6 +5,7 @@ import ReadingImgSrc1 from '../../assets/readingsImg/1.png'
 import ReadingImgSrc2 from '../../assets/readingsImg/2.png'
 import ReadingImgSrc3 from '../../assets/readingsImg/3.png'
 import ReadingImgSrc4 from '../../assets/readingsImg/4.png'
+import ReadingImgSrc5 from '../../assets/readingsImg/5.png'
 
 function Readings() {
 
@@ -32,6 +33,12 @@ function Readings() {
     title: 'HyperCerts Whitepaper',
     link: 'https://hypercerts.org/docs/whitepaper/ifs/',
     description: 'A new primitive for public goods funding through tracking and rewarding positive impact.'
+  },{
+    id: 5,
+    imgSrc: ReadingImgSrc5,
+    title: 'AR Will Spark the Next Big Tech Platform—Call It Mirrorworld',
+    link: 'https://www.wired.com/story/mirrorworld-ar-next-big-tech-platform/',
+    description: 'Coined first by computer scientist David Gelernter from Yale University, the concept of mirror world depicts the ability to use computers to mirror realworld, allowing users to explore concepts in unprecedented detail. We are building a 1-to-1 map of almost unimaginable scope. When it\'s complete, our physical reality will merge with the digital universe.A new primitive for public goods funding through tracking and rewarding positive impact.'
   }]
   return <div> 
     <Row className={styles.readings}> 

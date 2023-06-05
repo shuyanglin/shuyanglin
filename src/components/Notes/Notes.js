@@ -31,6 +31,10 @@ function Notes() {
     date: "2023-05-29",
     slug: "2023-05-29",    
     about: "Reading Hypercerts' white paper with Remarkable"
+  },{
+    date: "2023-06-05",
+    slug: "2023-06-05",    
+    about: "Meeting with Hadjar of Polis"
   }
 ]
 
