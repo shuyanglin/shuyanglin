@@ -35,6 +35,10 @@ function Notes() {
     date: "2023-06-05",
     slug: "2023-06-05",    
     about: "Meeting with Hadjar of Polis"
+  },{
+    date: "2023-06-12",
+    slug: "2023-06-12",    
+    about: "reigniting vTaiwan"
   }
 ]
 
