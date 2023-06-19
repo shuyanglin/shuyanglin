@@ -39,6 +39,10 @@ function Notes() {
     date: "2023-06-12",
     slug: "2023-06-12",    
     about: "reigniting vTaiwan"
+  },{
+    date: "2023-06-19",
+    slug: "2023-06-19",    
+    about: "met with Audrey, Alex and Flynn"
   }
 ]
 
