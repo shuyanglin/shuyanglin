@@ -12,6 +12,27 @@ function Calendar() {
     [{name:'Ars Eletronica', link: "https://ars.electronica.art/festival/en/"}],
     location: 'Linz, Austria'
   },{
+    date: '2023.7.12',
+    type: 'Workshop',
+    topic: 'Collective Intelligence: Putting people at the heart of policy-making',
+    organisation: 
+    [{name:'Demos', link: "https://demos.co.uk"}],
+    location: 'London, UK'
+  },{
+    date: '2023.6.21',
+    type: 'Workshop',
+    topic: 'Re-declaring the rights of the river Cam',
+    organisation: 
+    [{name:'Friends of the Cam', link: "https://www.friendsofthecam.org/content/re-declaring-rights-river-cam"}],
+    location: 'Cambridge, UK'
+  },{
+    date: '2023.6.15',
+    type: 'Workshop',
+    topic: 'Changing Course: transforming water system decision-making post 2043',
+    organisation: 
+    [{name:'CaBa', link: "https://catchmentbasedapproach.org"},{name:'Policy Lab', link: "https://openpolicy.blog.gov.uk"},{name:'DeFra Futures', link: "https://www.gov.uk/government/groups/futures-and-foresight"}],
+    location: 'London, UK'
+  },{
     date: '2023.5.16-18',
     type: 'Offsite',
     topic: 'DML Offsite',
