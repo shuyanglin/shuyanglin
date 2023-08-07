@@ -47,6 +47,10 @@ function Notes() {
     date: "2023-07-31",
     slug: "2023-07-31",    
     about: "Starting DML, and got the OpenAI grant!"
+  },{
+    date: "2023-08-07",
+    slug: "2023-08-07",    
+    about: "In progress: vTaiwan"
   }
 ]
 
