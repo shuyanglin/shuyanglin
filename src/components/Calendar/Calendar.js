@@ -5,12 +5,33 @@ import styles from './Calendar.module.css'
 function Calendar() {
 
   const commitment = [{
-    date: '2023.9.4-10',
-    type: 'Exhibition',
-    topic: 'Who owns the truth?',
+    date: '2023.10.14',
+    type: 'Hackathon',
+    topic: 'g0v hackathon',
     organisation: 
-    [{name:'Ars Eletronica', link: "https://ars.electronica.art/festival/en/"}],
-    location: 'Linz, Austria'
+    [{name:'g0v', link: "https://g0v.tw/"}],
+    location: 'Taipei, Taiwan'
+  },{
+    date: '2023.9.24',
+    type: 'Rountable',
+    topic: 'OpenAI x vTaiwan: Bridging Recursive Public',
+    organisation: 
+    [{name:'OpenAI', link: "https://openai.com/"}, {name:'vTaiwan', link: "https://info.vtaiwan.tw/"}],
+    location: 'Taipei, Taiwan'
+  },{
+    date: '2023.9.14',
+    type: 'Rountable',
+    topic: 'Data Equity & Governance in AI',
+    organisation: 
+    [{name:'Chatham House', link: "https://www.chathamhouse.org"}],
+    location: 'London, UK'
+  },{
+    date: '2023.8.4',
+    type: 'Interview',
+    topic: 'Institutionalising democratic innovations, lessons from vTaiwan',
+    organisation: 
+    [{name:'Nesta', link: "https://www.nesta.org.uk"}],
+    location: 'Online'
   },{
     date: '2023.7.12',
     type: 'Workshop',
