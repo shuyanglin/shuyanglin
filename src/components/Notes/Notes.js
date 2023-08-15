@@ -51,6 +51,10 @@ function Notes() {
     date: "2023-08-07",
     slug: "2023-08-07",    
     about: "In progress: vTaiwan"
+  },{
+    date: "2023-08-14",
+    slug: "2023-08-14",    
+    about: "Civictech portfolio in DML, in progress: vTaiwan x Chatham House - opinion collection"
   }
 ]
 

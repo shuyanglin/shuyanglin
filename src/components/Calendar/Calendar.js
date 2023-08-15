@@ -13,7 +13,7 @@ function Calendar() {
     location: 'Taipei, Taiwan'
   },{
     date: '2023.9.24',
-    type: 'Rountable',
+    type: 'Consultation',
     topic: 'OpenAI x vTaiwan: Bridging Recursive Public',
     organisation: 
     [{name:'OpenAI', link: "https://openai.com/"}, {name:'vTaiwan', link: "https://info.vtaiwan.tw/"}],
