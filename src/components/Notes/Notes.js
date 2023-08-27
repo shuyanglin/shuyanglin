@@ -4,6 +4,10 @@ import {Link} from 'react-router-dom';
 function Notes() {
 
   const allWeeksNotes = [{
+    date: "2023-08-21",
+    slug: "2023-08-21",    
+    about: "MODA deliverables divide and conquer"
+  },{
     date: "2023-08-14",
     slug: "2023-08-14",    
     about: "Civictech portfolio in DML, in progress: vTaiwan x Chatham House - opinion collection"
