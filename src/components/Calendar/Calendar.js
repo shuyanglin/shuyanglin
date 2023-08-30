@@ -19,6 +19,13 @@ function Calendar() {
     [{name:'OpenAI', link: "https://openai.com/"}, {name:'vTaiwan', link: "https://info.vtaiwan.tw/"}],
     location: 'Taipei, Taiwan'
   },{
+    date: '2023.9.15',
+    type: 'Launching event',
+    topic: 'BRAID (Bridging Responsible AI Divides)',
+    organisation: 
+    [{name:'BRAID', link: "https://braiduk.org"}, {name:'UKRI', link: "https://www.ukri.org/blog/how-the-arts-and-humanities-are-crucial-to-responsible-ai/"}, {name:'BBC', link: "https://www.bbc.co.uk"},],
+    location: 'London, UK'
+  },{
     date: '2023.9.14',
     type: 'Rountable',
     topic: 'Data Equity & Governance in AI',
