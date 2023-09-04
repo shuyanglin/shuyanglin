@@ -4,6 +4,10 @@ import {Link} from 'react-router-dom';
 function Notes() {
 
   const allWeeksNotes = [{
+    date: "2023-09-04",
+    slug: "2023-09-04",    
+    about: "Polis integration"
+  },{
     date: "2023-08-28",
     slug: "2023-08-28",    
     about: "Interface for care - positive rights and care ethics"
