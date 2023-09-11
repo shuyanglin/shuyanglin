@@ -4,6 +4,10 @@ import {Link} from 'react-router-dom';
 function Notes() {
 
   const allWeeksNotes = [{
+    date: "2023-09-11",
+    slug: "2023-09-11",    
+    about: "Sanity v3, open house london"
+  },{
     date: "2023-09-04",
     slug: "2023-09-04",    
     about: "Polis integration"
