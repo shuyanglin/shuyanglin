@@ -5,11 +5,18 @@ import styles from './Calendar.module.css'
 function Calendar() {
 
   const commitment = [{
-    date: '2023.10.14',
+    date: '2023.10.15',
     type: 'Hackathon',
     topic: 'g0v hackathon',
     organisation: 
     [{name:'g0v', link: "https://g0v.tw/"}],
+    location: 'Taipei, Taiwan'
+  },{
+    date: '2023.10.5',
+    type: 'Hackathon',
+    topic: 'Multigenerational Participation: Building a Resilient Structure for Internet Governance Communities in Taiwan',
+    organisation: 
+    [{name:'台灣網路治理論壇 (TWIGF)', link: "https://www.igf.org.tw"}],
     location: 'Taipei, Taiwan'
   },{
     date: '2023.9.24',
