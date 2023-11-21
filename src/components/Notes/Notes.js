@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 function Notes() {
 
   const allWeeksNotes = [{
+    date: "2023-11-21",
+    slug: "2023-11-21",
+    about: "Hitting deadlines"
+  }, {
     date: "2023-11-06",
     slug: "2023-11-06",
     about: "DML Berlin Pop-Up Studio, Beyond Culture with RxC and Serpintine Arts Electronnics"

@@ -54,6 +54,8 @@ function App() {
           <Route path="/notes/2023-09-11" element={<Note slug={"2023-09-11"} />}></Route>
           <Route path="/notes/2023-09-25" element={<Note slug={"2023-09-25"} />}></Route>
           <Route path="/notes/2023-11-06" element={<Note slug={"2023-11-06"} />}></Route>
+          <Route path="/notes/2023-11-21" element={<Note slug={"2023-11-21"} />}></Route>
+
         </Routes>
       </div>
       <Footer />
