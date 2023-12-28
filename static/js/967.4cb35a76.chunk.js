@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkShu_Yang_Lin=self.webpackChunkShu_Yang_Lin||[]).push([[967],{4967:function(e,n,a){e.exports=a.p+"static/media/note-2023-12-01.0d6567eb18a0d79ef039.md"}}]);
