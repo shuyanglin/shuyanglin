@@ -5,6 +5,34 @@ import styles from './Calendar.module.css'
 function Calendar() {
 
   const commitment = [{
+    date: '2024.1.29-2.4',
+    type: 'Offsite',
+    topic: '1522 Offsite',
+    organisation:
+      [{ name: '1522', link: "" }],
+    location: 'Tokyo, JP'
+  }, {
+    date: '2024.1.17',
+    type: 'Hackathon',
+    topic: 'vTaiwan Hackathon',
+    organisation:
+      [{ name: 'vTaiwan', link: "https://info.vtaiwan.tw" }],
+    location: 'Taipei, TW'
+  }, {
+    date: '2024.1.9-14',
+    type: 'Offsite',
+    topic: 'DML Offsite',
+    organisation:
+      [{ name: 'DML', link: "https://darkmatterlabs.org" }],
+    location: 'Amsterdam, NL'
+  }, {
+    date: '2023.11.11-12',
+    type: 'Offsite',
+    topic: '1522 Offsite',
+    organisation:
+      [{ name: '1522', link: "" }],
+    location: 'Margate, UK'
+  }, {
     date: '2023.11.3',
     type: 'Unconference',
     topic: 'Beyond Culture',
@@ -277,7 +305,7 @@ function Calendar() {
             <Col sm={3}> {item.organisation.map((org) => {
               return (
                 <div>
-                  <a href={org.link}>{org.name}</a>
+                  {org.link ? <a href={org.link}>{org.name}</a> : org.name}
                 </div>
               )
             })} </Col>

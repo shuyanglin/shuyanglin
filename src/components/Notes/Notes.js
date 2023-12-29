@@ -10,7 +10,7 @@ function Notes() {
   }, {
     date: "2023-12-01",
     slug: "2023-12-01",
-    about: "about consensus"
+    about: "About consensus"
   }, {
     date: "2023-11-21",
     slug: "2023-11-21",
@@ -22,7 +22,7 @@ function Notes() {
   }, {
     date: "2023-09-25",
     slug: "2023-09-25",
-    about: "consultation meeting at vTaiwan"
+    about: "Consultation meeting at vTaiwan"
   }, {
     date: "2023-09-11",
     slug: "2023-09-11",
@@ -54,11 +54,11 @@ function Notes() {
   }, {
     date: "2023-06-19",
     slug: "2023-06-19",
-    about: "met with Audrey, Alex and Flynn"
+    about: "Met with Audrey, Alex and Flynn"
   }, {
     date: "2023-06-12",
     slug: "2023-06-12",
-    about: "reigniting vTaiwan"
+    about: "Reigniting vTaiwan"
   }, {
     date: "2023-06-05",
     slug: "2023-06-05",
@@ -82,11 +82,11 @@ function Notes() {
   }, {
     date: "2023-05-01",
     slug: "2023-05-01",
-    about: "tinkering a chatbot and catching up with Liz"
+    about: "Tinkering a chatbot and catching up with Liz"
   }, {
     date: "2023-04-24",
     slug: "2023-04-24",
-    about: "first contact with da0 Taiwan, and meeting with Saffron, Teddy and Flynn"
+    about: "First contact with da0 Taiwan, and meeting with Saffron, Teddy and Flynn"
   }, {
     date: "2023-04-17",
     slug: "2023-04-17",
